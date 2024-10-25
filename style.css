@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./images/jah.gif');
+}
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.form-control {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: larger;
+}
+.form-control:focus {
+    border-color: #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+.submit-btn {
+    background-color: rgb(117, 10, 117);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background-color: rgb(117, 10, 117);
+}
+h1 {
+    padding: 5%;
+    margin: 5%;
+    color: black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.active-color {
+    color: rgb(0, 0, 0); 
+    transition: all 0.1s ease-in-out;
+    background-image: url('./images/J.webp');
+}
+.btn-primary{
+    color: white;
+    background-color: rgb(117, 19, 117);
+    border: none;
+
+}
